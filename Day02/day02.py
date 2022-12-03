@@ -59,8 +59,8 @@ for val in lines:
     if val[0]=='B':
         if val[2]=='X':
             points+=loss+rock
-        if val[2]=='Y':
-            points+=draw+paper
+        if val[2]=='Y': 
+            points+=draw+paper 
         if val[2]=='Z':
             points+=win+scissors
     if val[0]=='C':
